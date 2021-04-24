@@ -5,9 +5,9 @@ window.onload = function () {
     const links = [
         {
         label: 'Week 1 Code',
-		url: 'WDD330/week1/story_editor.html'
+		url: '/WDD330/week1/'
         }
-    ]
+    ];
         for (var i = links.length - 1; i >= 0; i--) {
             let li = document.createElement('li');
             let a = document.createElement('a');
