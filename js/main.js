@@ -5,7 +5,7 @@ window.onload = function () {
     const links = [
         {
         label: 'Week 1 Code',
-		url: '/WDD330/week1/story_editor.html'
+		url: 'WDD330/week1/story_editor.html'
         }
     ]
         for (var i = links.length - 1; i >= 0; i--) {
