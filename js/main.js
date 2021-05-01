@@ -4,8 +4,13 @@ window.onload = function () {
 
     const links = [
         {
-        label: 'Week 1 Code',
-		url: '/WDD330/week1/'
+            label: 'Week 1',
+		    url: '/WDD330/week1/'
+        },
+        {
+            label: 'Week 2',
+            url:'/WDD330/week2/'
+
         }
     ];
         for (var i = links.length - 1; i >= 0; i--) {
@@ -18,4 +23,5 @@ window.onload = function () {
             
         }
 }
+
 
