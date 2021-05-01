@@ -3,15 +3,17 @@ window.onload = function () {
 	let list = document.getElementById('linkList');
 
     const links = [
-        {
-            label: 'Week 1',
-		    url: '/WDD330/week1/'
-        },
+
         {
             label: 'Week 2',
-            url:'/WDD330/week2/'
+            url:'./WDD330/week2/'
 
+        },
+        {
+            label: 'Week 1',
+		    url: './WDD330/week1/'
         }
+        
     ];
         for (var i = links.length - 1; i >= 0; i--) {
             let li = document.createElement('li');
