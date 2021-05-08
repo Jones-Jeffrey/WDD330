@@ -3,15 +3,19 @@ window.onload = function () {
 	let list = document.getElementById('linkList');
 
     const links = [
+        {
+            label: 'Week 3',
+            url:'/week3/'
 
+        },
         {
             label: 'Week 2',
-            url:'./WDD330/week2/'
+            url:'/week2/'
 
         },
         {
             label: 'Week 1',
-		    url: './WDD330/week1/'
+		    url: '/week1/'
         }
         
     ];
