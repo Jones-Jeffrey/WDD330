@@ -1,9 +1,10 @@
 const quiz = [
-    { name: "Superman",realName: "Kal-El" },
-    { name: "Wonder Woman",realName: "Princess Diana of Themyscira" },
+    { name: "Superman",realName: "Clark Kent" },
+    { name: "Wonder Woman",realName: "Diana Prince" },
     { name: "Batman",realName: "Bruce Wayne" },
 ];
 
+// View Object
 const view = {
     start: document.getElementById('start'),
     score: document.querySelector('#score strong'),
