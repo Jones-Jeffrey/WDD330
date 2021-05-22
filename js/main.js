@@ -4,6 +4,11 @@ window.onload = function () {
 
     const links = [
         {
+            label: 'Week 5',
+            url:'week5/'
+
+        },
+        {
             label: 'Week 4',
             url:'week4/'
 
