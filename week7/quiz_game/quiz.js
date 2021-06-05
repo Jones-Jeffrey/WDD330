@@ -7,13 +7,13 @@ fetch(url)
   });
 
 const quiz = [
-              { name: "Superman",realName: "Kal-El" },
-              { name: "Wonderwoman",realName: "Princess Diana of Themyscira" },
+              { name: "Superman",realName: "Clark Kent" },
+              { name: "Wonderwoman",realName: "Dianna Prince" },
               { name: "Batman",realName: "Bruce Wayne" },
             ];
 
 function random(a,b=1) {
-    
+    // if only 1 argument is provided, we need to swap the values of a and b
     if (b === 1) {
         [a,b] = [b,a];
     }
@@ -26,7 +26,7 @@ function shuffle(array) {
         [array[i - 1], array[j]] = [array[j], array[i - 1]];
     }
 }
-
+// View Object
 const view = {
   score: document.querySelector('#score strong'),
   question: document.querySelector('#question'),
