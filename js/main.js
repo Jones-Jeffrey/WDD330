@@ -4,6 +4,11 @@ window.onload = function () {
 
     const links = [
         {
+            label: 'Week 7',
+            url:'week7/'
+
+        },
+        {
             label: 'ToDo App',
             url:'todo/'
 
