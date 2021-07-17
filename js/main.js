@@ -4,6 +4,12 @@ window.onload = function () {
 
     const links = [
         {
+            label: 'Simon Game - Final Project',
+            url:'simon/'
+
+        },
+        
+        {
             label: 'Week 10',
             url:'week10/'
 
