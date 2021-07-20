@@ -1,5 +1,11 @@
 h1 {
-	text-align: center
+	text-align: center;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background-color: lightslategray;
 }
 
 #game {
@@ -17,11 +23,14 @@ h1 {
 
 #start-game {
 	text-align: center;
+    background-color: rgb(45, 45, 231);
 	border: 1px solid black;
-	width: 100px;
+	width: 150px;
 	margin: auto;
-    border-radius: 5px;
+    border-radius: 12px;
     margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
 }
 
 .hidden {
@@ -40,6 +49,7 @@ h1 {
     height:100%;
     position:fixed;
     text-align:center;
+    font-family: 'Righteous', cursive;
     top:0;
     width:100%;
     z-index:10000;
@@ -68,7 +78,7 @@ h1 {
     border-radius: 50px;
     cursor: pointer;
     display: inline-block;
-    font-family: arial;
+    font-family: 'Righteous', cursive;
     font-weight: bold;
     position: absolute;
     top: -20px;
